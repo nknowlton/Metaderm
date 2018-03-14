@@ -4,3 +4,6 @@
 *.pper
 
 \.Rproj\.user/2F3F54A1/
+
+\.Rhistory
+.Rproj.user

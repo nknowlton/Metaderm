@@ -121,4 +121,4 @@ storage.mat[,9]<-as.numeric(tmp[,9])
 smat<-as.data.frame(storage.mat)
 setDT(smat)
 
-save(smat,tape.strip,file="/data/metaderm/metaderm data.Rdata",compress = "xz")
+save(blind.code,smat,tape.strip,file="/data/metaderm/metaderm data.Rdata",compress = "xz")
